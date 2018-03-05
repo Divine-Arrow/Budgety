@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="TodoStyle.css">
+    <title>Todo</title>
+    <link rel="shortcut icon" href="images/todologo.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="whole_page">
+        <div class="header_container">
+            <div class="header_wrapper">
+                <div class="logo"></div><p class="header">Todo App</p>
+                <!--<p class="header">Todo App</p>-->
+                <input type="text" placeholder="Search" class="searchItems" onkeyup="searchingItem()" onchange="showAllItems()">
+            </div>
+        </div>
+        <div class="card">
+            <div class="card_wrapper">
+                <p>Add Items</p>
+                <input type="text" placeholder="Enter Todo here" onkeypress="enter(event,value)">
+                <button class="submit_button">Submit</button>
+                <button class="mark_all">Mark All</button>
+                <button class="unmark_all">Unmark All</button>
+                <button class="delete_all">Delete All</button>
+                <button class="reverse_all">Reverse Check</button>
+                <p class="items">Items</p>
+                <p class="notFound">Todo not Found . . .</p>
+                <ul>
+                    <li></li>
+
+                    <!--<li>BreakFast <div class="delete-btn"></div></li>
+                    <li>Work</li>
+                    <li>Car Driving</li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--Pop up boxes-->
+    <div class="popup_container">
+        <p>Already Added. Enter Another Todo..!</p>
+        <button>OK</button>
+    </div>
+
+    <div class="delete_container">
+        <p>All Item Will be deleted.. Are you sure ?</p>
+        <div class="yesNo">
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+    </div>
+
+
+    <script src="TodoScript.js"></script>
+</body>
+
+</html>
