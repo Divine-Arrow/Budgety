@@ -18,10 +18,12 @@ var unMarkAllBtn = document.querySelector(".unmark_all");
 var deleteAllBtn = document.querySelector(".delete_all");
 var reverseBtn = document.querySelector(".reverse_all");
 
+/* Adding listener to the button */
 button.addEventListener("click", function () {
     mainAll();
 })
 
+/* adding listener to the popup container */
 popupContainerButton.addEventListener("click", function () {
     popupContainer.style.display = "none";
     data.value = "";
@@ -63,6 +65,7 @@ function mainAll() {
     counterPopup = true;
 }
 
+/* funtion for adding items */
 function addListItem() {
     var newli = document.createElement("li");
     var divli = document.createElement("div");
