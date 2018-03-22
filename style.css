@@ -16,7 +16,6 @@ body {
 
 .logo {
     background: url("images/todologo.png") no-repeat center;
-    /*background: url("https://lh5.googleusercontent.com/zsfy4_xmhA8dSsxXdlyT9uJf62wftDJ28UIIGr41ZQspPXaER7_MRutn9Hz7VUfaKBTl1xcxGZ5uhCGlE1kx=w1366-h675") no-repeat center;*/
     background-size: contain;
     height: 50px;
     width: 50px;
@@ -69,7 +68,6 @@ body {
     font-family: 'Lato', sans-serif;
     min-width: 50%;
     max-width: 70%;
-    /*background-color: #ff5959;*/
     margin: 0 auto;
     margin-top: 2%;
     border-radius: 5px;
@@ -82,8 +80,6 @@ body {
     max-width: 90%;
     margin: 0 auto;
     margin-bottom: 2%;
-    /*border: 1.5px solid #b0b0b0;
-    background-color: pink; */   
 }
 
 .card_wrapper p:first-child {
@@ -228,9 +224,8 @@ body {
     background-color: rgba(248, 32, 106, 0.87);
     color: white;
     border-color: #e84747 !important;
-    padding: 0.7% 0 0.7% 6.5%;
-/*    box-shadow: 7px 7px 4px 1px #b2b2b2;*/  /*i did*/  
-    box-shadow: 1px 7px 4px 1px #b2b2b2        /*suggested*/
+    padding: 0.7% 0 0.7% 6.5%;  
+    box-shadow: 1px 7px 4px 1px #b2b2b2;
 }
 
 .card_wrapper ul li:first-child:hover {
@@ -242,9 +237,7 @@ body {
 }
 
 .delete-btn {
-    /*color: #f01818;*/
     background: url("images/delete.png") no-repeat center;
-    /*background: url("https://lh5.googleusercontent.com/RvHB0KWxKEPt__uUHlXmC4RuEVwxlRz3yLUTtXifm9yR0E_rW8noP2UOzo3r7798z21GWdkqF6Fmg0Y7QVDC=w1366-h675") no-repeat center;*/
     background-size: cover;
     height: 1.38em;
     width: 1.38em;
@@ -257,7 +250,6 @@ body {
 
 .card_wrapper ul li:hover .delete-btn {
     background: url("images/delete2.png") no-repeat center;
-    /*background: url("https://lh3.googleusercontent.com/TJaHoHG1XeoUkB6WbKuvg6cNX7O_NpVaZJiaZeRsSXJHReR_E2Vj6BovICFjPpCCg-1vFx5qk3OCkk7SseWD=w1366-h675") no-repeat center;*/
     background-size: cover;
 }
 
@@ -266,7 +258,6 @@ body {
     color: rgba(255, 255, 255, 0.81);
     background-color: #c5c0c0;
     background-color: rgb(209, 209, 209);
-    /*padding-left: 10% !important;*/
 }
 
 .whiteDel {
@@ -403,18 +394,3 @@ body {
     background: #b0ffb0;
     opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
