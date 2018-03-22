@@ -100,10 +100,13 @@ function addListItem() {
     }
 }
 
+/* Funtion for capitalising the letter */
 function capitalise(x) {
     // data.value
     return x.charAt(0).toUpperCase() + x.slice(1).toLowerCase();
 }
+
+/* function to changing sentense to lowercase in order to check match */
 
 function allLowerCase(y) {
     return y.toLowerCase();
@@ -228,6 +231,9 @@ unMarkAllBtn.onclick = function () {
         allli[i].childNodes[1].classList.remove("whiteDel");
     }
 }
+
+
+/* Adding listener to the delete button */
 
 deleteAllBtn.onclick = function () {
 
